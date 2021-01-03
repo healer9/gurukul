@@ -1,0 +1,507 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Redressed', cursive; */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.header-container {
+    margin: auto;
+    width: 90%;
+}
+
+header {
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(1px);
+    color: #f1f6f9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.school-logo {
+    border-bottom: 1px solid #f1f6f9;
+    padding-bottom: 4px;
+}
+
+nav {
+    width: 55%;
+}
+
+.nav-links {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container {
+    padding: 2px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+
+.nav-links-minor {
+    font-family: 'Poppins', sans-serif;
+    background-color: grey;
+    color: #f1f6f9;
+    padding: 10px 0;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+a {
+    color: #f1f6f9;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+.logo-cap {
+    width: 100px;
+}
+
+.active {
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+
+li:hover {
+    color: yellow;
+}
+
+i {
+    color: #f1f6f9;
+    cursor: pointer;
+}
+
+i:hover {
+    color: yellow;
+}
+
+.social-media {
+    font-size: 1.3rem;
+    background-color: grey;
+    color: #f1f6f9;
+    padding: 10px 0;
+    align-items: center;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    align-items: center;
+    text-align: center;
+    padding: 2% 7%;
+    margin-top: 5%;
+}
+
+.school-name {
+    color: #f1f6f9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+}
+
+.quote {
+    color: #f1f6f9;
+    font-family: 'Redressed', cursive;
+    margin-top: 1%;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.btn-div {
+    align-items: center;
+    margin: 5% auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery-btn,
+.news-btn {
+    font-size: 1.1rem;
+    width: 150px;
+    padding: 4%;
+}
+
+.news-btn {
+    border: 1px solid #f1f6f9;
+    color: #f1f6f9;
+    background-color: #000000;
+}
+
+.gallery-btn:focus,
+.news-btn:focus {
+    outline: none;
+}
+
+.gallery-btn:hover {
+    border: 1px solid #f1f6f9;
+    color: #f1f6f9;
+    background-color: #000000;
+}
+
+.news-btn:hover {
+    color: #000000;
+    background-color: #f1f6f9;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* About-section */
+.about-container {
+    font-family: 'Poppins', sans-serif;
+    margin: 2% auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-links {
+    padding: 2% 5%;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(1px);
+    color: #f1f6f9;
+    width: 25%;
+}
+
+.about-info {
+    padding: 2% 5%;
+    border-radius: 7px;
+    background-color: grey;
+    color: #f1f6f9;
+    width: 70%;
+}
+
+.description,
+.about-list {
+    font-size: 1.2rem;
+    margin-top: 5%;
+}
+
+/* Admission */
+.admission-container {
+    font-family: 'Poppins', sans-serif;
+    margin: 2% auto;
+    width: 90%;
+    text-align: center;
+}
+
+.admission-container h1 {
+    color: #f1f6f9;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.admission-info {
+    margin-top: 2%;
+    padding: 2% 5%;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(1px);
+    color: #f1f6f9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.admission-info p {
+    font-size: 1.2rem;
+}
+
+.info {
+    margin-top: 10%;
+}
+
+.apply-btn {
+    padding: 1% 2%;
+    border-radius: 7px;
+    margin-top: 2%;
+}
+
+.apply-btn:hover {
+    background-color: grey;
+    color: #f1f6f9;
+}
+
+.apply-btn:focus {
+    outline: none;
+}
+
+.video {
+    width: 640px;
+    margin: 5% auto;
+}
+
+/* contact-container */
+.contact-container {
+    font-family: 'Poppins', sans-serif;
+    margin: 2% auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info {
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    background-color: grey;
+    color: #f1f6f9;
+    width: 30%;
+    padding: 2% 5%;
+}
+
+.details {
+    margin: 15% auto;
+}
+
+.details h2 {
+    margin-top: 4%;
+}
+
+form {
+    font-size: 1.2rem;
+}
+
+.contact-input,
+textarea {
+    background-color: #f1f6f9;
+    border: none;
+    padding: 2%;
+    margin: 2% auto;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+.contact-input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.contact-form {
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(1px);
+    color: #f1f6f9;
+    width: 40%;
+    padding: 2% 5%;
+}
+
+/* Alumni-section */
+.alumni-container {
+    font-family: 'Poppins', sans-serif;
+    margin: 2% auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.alumni-card {
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    background-color: grey;
+    color: #f1f6f9;
+    padding: 4% 2%;
+    margin: 2% 10%;
+}
+
+.alumni-img {
+    width: 150px;
+    height: 150px;
+}
+
+/* portal - section */
+.portal-container {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(1px);
+    color: #f1f6f9;
+    margin: 2% auto;
+    width: 50%;
+}
+
+.login-form {
+    padding: 5%;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.radio {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.radio-select {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-details {
+    margin: 5% auto;
+    width: 80%;
+}
+
+.login-details h3 {
+    margin: 2% auto;
+}
+
+.login-input {
+    font-size: 1.5rem;
+    padding: 1%;
+    width: 100%;
+    border: none;
+}
+
+.login-input:focus {
+    outline: none;
+}
+
+.btn {
+    text-align: center;
+}
+
+.login-btn {
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 20%;
+    padding: 2%;
+}
+
+.login-btn:focus {
+    outline: none;
+}
+
+/* faculty-section */
+.faculty-container {
+    text-align: centre;
+    margin: 2% auto;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.faculty-container h2 {
+    border-radius: 7px;
+    padding: 1%;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto 2% auto;
+    background-color: grey;
+    color: #f1f6f9;
+}
+
+.faculty-info {
+    margin: auto;
+    width: 70%;
+    padding: 2% 10%;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(1px);
+    color: #f1f6f9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.faculty-design {
+    margin-top: 1%;
+}
+
+/* gallery-section */
+.gallery-container {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    width: 90%;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(1px);
+    color: #f1f6f9;
+}
+
+.gallery-heading {
+    letter-spacing: 0.2rem;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.collage-container {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4%;
+}
+
+.collage-img {
+    width: 300px;
+    height: 150px
+}
+
+.collage-card {
+    width: 100%;
+}
+
+/* news-section */
+.news-container {
+    font-family: 'Poppins', sans-serif;
+    margin: 2% auto;
+    width: 90%;
+    padding: 2% 5%;
+    border-radius: 7px;
+    background-color: grey;
+    color: #f1f6f9;
+}
