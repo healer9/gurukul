@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/gurukul/static/js/main.8d158fd8.chunk.js",
+    "main.js.map": "/gurukul/static/js/main.8d158fd8.chunk.js.map",
+    "runtime-main.js": "/gurukul/static/js/runtime-main.480de885.js",
+    "runtime-main.js.map": "/gurukul/static/js/runtime-main.480de885.js.map",
+    "static/css/2.0b23fd47.chunk.css": "/gurukul/static/css/2.0b23fd47.chunk.css",
+    "static/js/2.2292052f.chunk.js": "/gurukul/static/js/2.2292052f.chunk.js",
+    "static/js/2.2292052f.chunk.js.map": "/gurukul/static/js/2.2292052f.chunk.js.map",
+    "index.html": "/gurukul/index.html",
+    "static/css/2.0b23fd47.chunk.css.map": "/gurukul/static/css/2.0b23fd47.chunk.css.map",
+    "static/js/2.2292052f.chunk.js.LICENSE.txt": "/gurukul/static/js/2.2292052f.chunk.js.LICENSE.txt",
+    "static/media/AnnualFunction.774d2ed0.jpg": "/gurukul/static/media/AnnualFunction.774d2ed0.jpg",
+    "static/media/CulturalFest.14f96300.jpeg": "/gurukul/static/media/CulturalFest.14f96300.jpeg",
+    "static/media/FancyDress.c3954291.jpg": "/gurukul/static/media/FancyDress.c3954291.jpg",
+    "static/media/GurukulLogo.6650c954.png": "/gurukul/static/media/GurukulLogo.6650c954.png",
+    "static/media/ManoharParrikar.37af5e3b.jpg": "/gurukul/static/media/ManoharParrikar.37af5e3b.jpg",
+    "static/media/NarayanMurti.563ba852.jpg": "/gurukul/static/media/NarayanMurti.563ba852.jpg",
+    "static/media/RaghuramRajan.1121128e.jpg": "/gurukul/static/media/RaghuramRajan.1121128e.jpg",
+    "static/media/SchoolDecoration.8ec489d1.jpg": "/gurukul/static/media/SchoolDecoration.8ec489d1.jpg",
+    "static/media/SundarPichai.300092ca.jpeg": "/gurukul/static/media/SundarPichai.300092ca.jpeg",
+    "static/media/font-awesome.min.css": "/gurukul/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.480de885.js",
+    "static/css/2.0b23fd47.chunk.css",
+    "static/js/2.2292052f.chunk.js",
+    "static/js/main.8d158fd8.chunk.js"
+  ]
+}
